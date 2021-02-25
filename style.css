@@ -21,7 +21,7 @@ div.logo {
 }
 
 div.logo {
-  background-color: rgb(255, 0, 242);
+  background-color: #e579e6;
   height: 50px;
 }
 
@@ -31,47 +31,46 @@ div.main-picture {
 }
 
 main {
-  background-color: rgb(106, 165, 255);
-  height: 200px;
-  margin-bottom: 20px;
+  height: 300px;
+  margin-bottom: 5px;
+}
+
+.content.title,
+.container.clearfix {
+  border-bottom: 10px solid #0085fe;
+  width: 100%;
 }
 
 .content.title {
-  width: 100%;
   height: 20%;
-  background-color: rgb(106, 165, 255);
-  border-bottom: 10px solid springgreen;
+  background-color: #abcfe7;
 }
 
 .container.clearfix {
-  background-color: springgreen;
+  background-color: #0085fe;
   height: 80%;
-  border-bottom: 10px solid springgreen;
-  width: 100%;
 }
 
 .nav,
 .text,
 .widgets {
   float: left;
+  background-color: #abcfe7;
+  height: 100%;
 }
 
 .nav,
 .widgets {
-  background-color: rgb(106, 165, 255);
   width: 20%;
-  height: 100%;
 }
 
 .text {
-  background-color: rgb(106, 165, 255);
   width: 56%;
   margin: 0 2%;
-  height: 100%;
 }
 
 footer {
   width: 100%;
   height: 30px;
-  background-color: purple;
+  background-color: #8800fe;
 }
